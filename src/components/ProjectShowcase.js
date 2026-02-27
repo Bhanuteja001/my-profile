@@ -13,14 +13,21 @@ Designed with smooth animations and responsive UI to create a fun and engaging.`
     github_link: "https://github.com/Bhanuteja001/Valintine_Code",
   },
   {
-    title: "LuxeTrade",
-    description:
-      "A premium e-commerce platform for high-end fashion with a focus on seamless user experience and micro-interactions.",
-    tags: ["React", "Node.js", "Stripe"],
-    web_link: "https://luxe-trade.vercel.app/",
-    github_link: "https://github.com/ChilukaBhanuteja/LuxeTrade",
+    title: "SurgyLife",
+    description: `SurgyLife is a full-stack MERN web application that streamlines healthcare service management by handling patient interactions, appointments, and medical data through secure RESTful APIs.
+`,
+    tags: ["React", "Node.js", "MongoDB"],
+    web_link: "https://bhanuteja001.netlify.app/",
+    github_link: "https://github.com/Bhanuteja001/MERN_server",
   },
-
+  {
+    title: "Drag and Drop",
+    description: `An interactive drag-and-drop category management system built using React and Node.js, enabling users to dynamically move items across multiple categories with real-time updates..
+`,
+    tags: ["React", "Node.js", "MongoDB"],
+    web_link: "https://bhanuteja-task.netlify.app/",
+    github_link: "https://github.com/Bhanuteja001/mindLink-TaskBackEnd",
+  },
 ];
 
 export default function ProjectShowcase() {
@@ -72,7 +79,7 @@ export default function ProjectShowcase() {
             <h3 className="text-2xl font-bold mb-4 group-hover:text-accent transition-colors duration-300">
               {project.title}
             </h3>
-            <p className="text-muted-foreground mb-8 flex-grow leading-relaxed">
+            <p className="text-muted-foreground mb-8 grow leading-relaxed">
               {project.description}
             </p>
 
