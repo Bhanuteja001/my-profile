@@ -29,7 +29,6 @@ export default function Home() {
 
       <main className="pt-20">
         <Hero />
-
         <div className="space-y-12">
           <ProjectShowcase />
           <Experience />
@@ -54,7 +53,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
-              Github
+              Github.
             </a>
             <a
               href="https://www.linkedin.com/in/bhanuteja-chiluka-mern-developer/"
@@ -62,7 +61,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
-              LinkedIn
+              LinkedIn.
             </a>
           </div>
         </div>
