@@ -61,7 +61,7 @@ export default function Home() {
               rel="noopener noreferrer"
               className="text-muted-foreground hover:text-foreground transition-colors"
             >
-              LinkedIn.
+              LinkedIn
             </a>
           </div>
         </div>
